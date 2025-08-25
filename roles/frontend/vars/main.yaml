@@ -1,0 +1,5 @@
+CATALOGUE_HOST : catalogue.akashabalaji.site
+USER_HOST: user.akashabalaji.site
+CART_HOST: cart.akashabalaji.site
+SHIPPING_HOST: shipping.akashabalaji.site
+PAYMENT_HOST: payment.akashabalaji.site

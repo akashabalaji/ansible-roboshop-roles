@@ -8,7 +8,6 @@
       name: command_output
       tasks_from: nodejs
 
-
 - name: copy mongo service file
   ansible.builtin.copy:
       src: mongo.repo
