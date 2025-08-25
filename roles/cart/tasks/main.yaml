@@ -1,0 +1,14 @@
+- name: include common role for nodejs
+  include_role:
+    name: common
+    tasks_from: nodejs
+
+- name: include common role for app setup
+  include_role:
+    name: common
+    tasks_from: app-setup
+
+- name: include common role for systemd
+  include_role:
+    name: common
+    tasks_from: systemd
