@@ -1,4 +1,4 @@
-LOGIN_USER = root
-LOGIN_PASSWORD = RoboShop@1
-CART_HOST = cart.akashabalaji.site
-MYSQL_HOST = mysql.akashabalaji.site
+LOGIN_USER : root
+LOGIN_PASSWORD : RoboShop@1
+CART_HOST : cart.akashabalaji.site
+MYSQL_HOST : mysql.akashabalaji.site
