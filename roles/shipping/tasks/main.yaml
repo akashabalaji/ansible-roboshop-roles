@@ -11,8 +11,8 @@
 - name: import data
   community.mysql.mysql_db:
     name: all
-    login_user: "{{ LOGIN_USER }}"
-    login_password: "{{ LOGIN_PASSWORD }}"
+    login_user: "{{ MYSQL_ROOT_USER }}"
+    login_password: "{{ MYSQL_ROOT_PASSWORD }}"
     login_host: "{{ MYSQL_HOST }}"
     state: import
     target: "{{ item }}"
