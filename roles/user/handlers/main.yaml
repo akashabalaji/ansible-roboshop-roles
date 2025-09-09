@@ -1,0 +1,6 @@
+- name: restart user
+  ansible.builtin.systemd:
+    name: user
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
