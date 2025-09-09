@@ -1,4 +1,4 @@
-- name: app settup
+- name: app setup
   include_roles:
       name: command_output
       tasks_from: app_setup
