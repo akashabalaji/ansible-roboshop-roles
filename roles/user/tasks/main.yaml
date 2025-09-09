@@ -1,15 +1,15 @@
 - name: nodejs 
-  include_roles:
+  include_role:
       name: common
       tasks_from: nodejs
 
 - name: app setup
-  include_roles:
+  include_role:
       name: common
       tasks_from: app_setup
 
 - name: systemd
-  include_roles:
+  include_role:
       name: common
       tasks_from: systemd
 
