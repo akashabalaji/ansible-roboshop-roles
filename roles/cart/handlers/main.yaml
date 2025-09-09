@@ -1,0 +1,6 @@
+- name: restart cart
+  ansible.builtin.systemd:
+    name: cart
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
